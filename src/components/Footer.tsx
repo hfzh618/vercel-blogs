@@ -26,7 +26,7 @@ export default function Footer() {
             <ul className="space-y-2">
               {[
                 { href: '/blog', label: '技术博客' },
-                { href: '/notes', label: '学习笔记' },
+                { href: '/notes', label: '生活记录' },
                 { href: '/essays', label: '随笔感悟' },
                 { href: '/projects', label: '项目经历' },
                 { href: '/resume', label: '个人简历' },

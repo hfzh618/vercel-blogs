@@ -9,7 +9,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 const navItems = [
   { href: '/', label: '首页' },
   { href: '/blog', label: '博客' },
-  { href: '/notes', label: '笔记' },
+  { href: '/notes', label: '生活' },
   { href: '/essays', label: '随笔' },
   { href: '/projects', label: '项目' },
   { href: '/resume', label: '简历' },
@@ -61,7 +61,7 @@ export default function Header() {
             href="/"
             className="text-xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent hover:from-purple-600 hover:to-blue-600 transition-all duration-500"
           >
-            我的博客
+            0.618 空间
           </Link>
 
           {/* Desktop Nav */}

@@ -39,7 +39,7 @@ export default async function NoteDetailPage({ params }: PageProps) {
           className="inline-flex items-center gap-1.5 text-sm text-gray-500 dark:text-gray-400 hover:text-green-600 dark:hover:text-green-400 transition-colors mb-8"
         >
           <ArrowLeft size={14} />
-          返回笔记列表
+          返回生活记录
         </Link>
 
         <article>

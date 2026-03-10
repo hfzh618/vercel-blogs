@@ -13,8 +13,8 @@ const sections = [
     gradient: 'from-blue-500 to-cyan-500',
   },
   {
-    title: '学习笔记',
-    description: '系统整理学习过程中的知识点和心得',
+    title: '生活记录',
+    description: '记录健身、旅行和日常生活的点滴',
     href: '/notes',
     icon: StickyNote,
     gradient: 'from-green-500 to-emerald-500',
@@ -62,7 +62,7 @@ export default function Home() {
             <div className="text-center">
               <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-400 text-sm font-medium mb-6">
                 <span className="w-2 h-2 rounded-full bg-blue-500 animate-pulse" />
-                欢迎来到我的数字花园
+                欢迎来到0.618空间
               </div>
 
               <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-6">
@@ -74,9 +74,8 @@ export default function Home() {
               </h1>
 
               <p className="text-lg text-gray-500 dark:text-gray-400 max-w-2xl mx-auto mb-8 leading-relaxed">
-                这里是我的个人博客，记录技术学习、项目经验和生活感悟。
+                这里是0.618空间，记录技术学习、项目经验和生活感悟。
                 <br />
-                希望这些文字能对你有所启发。
               </p>
 
               <div className="flex flex-wrap justify-center gap-3">

@@ -7,7 +7,7 @@ import type { PostMeta } from '@/lib/markdown';
 
 const categoryLabels: Record<string, string> = {
   blog: '博客',
-  notes: '笔记',
+  notes: '生活',
   essays: '随笔',
 };
 
